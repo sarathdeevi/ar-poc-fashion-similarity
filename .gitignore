@@ -1,5 +1,4 @@
 **/*.pyc
-tf_files
 .idea/
 **/*~
 gradle*
@@ -8,3 +7,4 @@ local.properties
 android.iml
 .gradle/
 android/assets/*
+.DS_Store
