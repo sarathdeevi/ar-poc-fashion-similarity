@@ -1,0 +1,83 @@
+   90  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=/Users/1020621/Documents/personal/learning/apparel_classification/fashion-data/images/0/n02854926/n02854926_59_0.jpg
+   91  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=/Users/1020621/Documents/personal/learning/apparel_classification/fashion-data/images/0/n02854926/n02854926_2_0.jpg
+   92  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=/Users/1020621/Documents/personal/learning/apparel_classification/fashion-data/images/0/n02854926/n02854926_5_0.jpg
+   93  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=/Users/1020621/Documents/personal/learning/apparel_classification/fashion-data/images/0/n02854926/n02854926_8_0.jpg
+   94  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=/Users/1020621/Documents/personal/learning/apparel_classification/fashion-data/images/0/n02854926/n02854926_28_0.jpg
+   95  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=/Users/1020621/Documents/personal/learning/apparel_classification/fashion-data/images/0/n02854926/n02854926_40_0.jpg
+   96  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=/Users/1020621/Documents/personal/learning/apparel_classification/fashion-data/images/0/n02854926/n02854926_56_0.jpg
+   97  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=/Users/1020621/Documents/personal/learning/apparel_classification/fashion-data/images/0/n02854926/n02854926_59_0.jpg
+   98  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=/Users/1020621/Documents/personal/learning/apparel_classification/fashion-data/images/0/n02854926/n02854926_85_0.jpg
+   99  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=/Users/1020621/Documents/personal/pics/full/2017_09_21/IMG_2963.JPG
+  100  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/images.jpg
+  101  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/2.jpg
+  102  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/3.jpg
+  103  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/4.jpg
+  104  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/5.jpg
+  105  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/6.jpg
+  106  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/7.jpg
+  107  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/9.jpg
+  108  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/11.jpg
+  109  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/10.jpg
+  110  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/woman_blouse/1.jpg
+  111  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/woman_blouse/1.jpg
+  112  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/12.jpg
+  113  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/woman_blouse/2.jpg
+  114  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/13.jpg
+  115  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/14.jpg
+  116  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/15.jpg
+  125  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --image=test_images/waistCoat/1.jpg
+  126  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --image=test_images/waistCoat/1.jpgclear
+  132  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --image=test_images/waistCoat/1.jpgclear
+  135  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --image=test_images/waistCoat/1.jpg
+  137  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --image=test_images/waistCoat/1.jpg
+  138  python -m scripts.label_image -h
+  140  python -m scripts.label_image --h
+  141  python -m scripts.label_image\     --graph=tf_files/retrained_graph_4_categories.pb      --image=test_images/waistCoat/1.jpg --
+  143  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --image=test_images/waistCoat/1.jpg     --labels=tf_files/retrained_labels_4_categories.txt
+  145  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/waistCoat/2.jpg 
+  146  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/mensShirt/2.jpg 
+  147  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/mensShirt/1.jpg 
+  148  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/mens_shirt/1.jpg 
+  149  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/poloShirt/1.jpg 
+  150  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/poloShirt/2.jpg 
+  151  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/poloShirt/3\.jpg 
+  152  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/poloShirt/4.jpg 
+  153  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/poloShirt/5.jpg 
+  154  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/mensShirt/5.jpg 
+  155  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/mensShirt/1.jpg 
+  156  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/mensShirt/2.jpg 
+  157  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/mensShirt/3.jpg 
+  158  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/mensShirt/4.jpg 
+  159  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/mensShirt/5.jpg 
+  160  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/vestWaistCoat/4.jpg 
+  161  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/waistCoat/4.jpg 
+  169  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/vestWaistCoat/4.jpg 
+  170  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/mensShirt/5.jpg 
+  171  python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/mensShirt/1.jpg 
+  173  for i in 123 ;     do      python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/mensShirt/$i.jpg;     done
+  175     for i in 1 2 3 ;     do      python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/mensShirt/$i.jpg;     done
+  176   for i in 1 2 3 ;     do      testImageDir = "test_images/mensShirt/";     echo "-------------------------------------------------------------";     echo "checking for "$testImageDir$i;     python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/mensShirt/$i.jpg;     echo "-------------------------------------------------------------";     done
+  178      for i in 1 2 3 ;     do      testImageDir = "test_images/mensShirt/";     echo "-------------------------------------------------------------";     echo "checking for $testImageDir$i";     python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/mensShirt/$i.jpg;     echo "-------------------------------------------------------------";     done
+  179      for i in 1 2 3 ;     do      testImageDir = "test_images/mensShirt/";     echo "-------------------------------------------------------------";     echo "checking for $testImageDir$i";     python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/mensShirt/$i.jpg;     echo "-------------------------------------------------------------";     done
+  180      for i in 1 2 3 ;     do      testImageDir="test_images/mensShirt/";     echo "-------------------------------------------------------------";     echo "checking for $testImageDir$i";     python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/mensShirt/$i.jpg;     echo "-------------------------------------------------------------";     done
+  181      for i in 1 2 3 ;     do      testImageDir="test_images/mensShirt/";     echo "-------------------------------------------------------------";     echo "checking for $testImageDir$i";     result = python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/mensShirt/$i.jpg;     echo $result;     echo "-------------------------------------------------------------";     done
+  182      for i in 1 2 3 ;     do      testImageDir="test_images/mensShirt/";     echo "-------------------------------------------------------------";     echo "checking for $testImageDir$i";     result = python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/mensShirt/$i.jpg;     echo "$result";     echo "-------------------------------------------------------------";     done
+  183      for i in 1 2 3 ;     do      testImageDir="test_images/mensShirt/";     echo "-------------------------------------------------------------";     echo "checking for $testImageDir$i";     python -m scripts.label_image     --graph=tf_files/retrained_graph_4_categories.pb      --labels=tf_files/retrained_labels_4_categories.txt     --image=test_images/mensShirt/$i.jpg;     echo "-------------------------------------------------------------";     done
+  547  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=tf_files/flower_photos/daisy/21652746_cc379e0eea_m.jpg
+  549* python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=tf_files/flower_photos/
+  550  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=tf_files/mensShirt/1.jpg
+  552  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=tf_files/mensShirt/1.jpg
+  555  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=tf_files/mensShirt/1.jpg
+  556  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=tf_files/input_files/mensShirt/1.jpg
+  557  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=input_files/mensShirt/1.jpg
+  560  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/mensShirt/1.jpg
+  561  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/mensShirt/1.jpg
+  562  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/mensShirt/1.jpg
+  564  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/mensShirt/1.jpg
+  565  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/mensShirt/1.jpg
+  566  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/mensShirt/1.jpg
+  567  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/mensShirt/1.jpg
+  568  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/mensShirt/1.jpg
+  585  python -m scripts.label_image     --graph=tf_files/retrained_graph.pb      --image=test_images/mensShirt/1.jpg
+  586  history| grep scripts.label
+  587  history| grep scripts.label > history_label.txt
