@@ -1,4 +1,5 @@
 import base64
+import json
 import shutil
 
 from flask import Flask, render_template, request
@@ -47,6 +48,21 @@ def find_similar_images():
                                input_file=f.filename)
 
 
+_valid_json = '''
+{
+	"name": "Polo Shirt",
+	"type": "Men's Shirt",
+	"url": "/static/inputFiles/menShirt/n04197391_10607_0.jpg",
+	"sales": {
+		"week": 120,
+		"month": 2000,
+		"season": 4500
+	},
+	"cost-price": 100
+}
+'''
+
+
 @app.route('/mobile/upload', methods=['POST'])
 def mobile_upload():
     file_location = "static/uploadedImages/"
@@ -59,8 +75,18 @@ def mobile_upload():
     f.close()
 
     similar_images, label_name = get_label(file_name)
-    return render_template('similarImagesResults.html', input_label=label_name, similar_list=similar_images,
-                           input_file=file_name)
+
+    valid_json = json.loads(_valid_json)
+
+    urls = []
+    for url in similar_images:
+        urls.append('static/inputFiles/' + label_name + "/" + url)
+
+    valid_json['url'] = urls
+
+    response_json = json.dumps(valid_json)
+
+    return response_json
 
 
 if __name__ == '__main__':
