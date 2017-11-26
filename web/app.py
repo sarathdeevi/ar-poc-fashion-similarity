@@ -75,7 +75,7 @@ def mobile_upload():
 
     f.close()
 
-    return "{'file_name': '" + file_name + "'}"
+    return '{"file_name": "' + file_name + '"}'
 
 
 @app.route('/mobile/label', methods=['GET'])
@@ -83,7 +83,7 @@ def mobile_label():
     file_name = request.args['file_name']
     label_name = get_label(file_name)
 
-    return "{'label_name': '" + label_name + "'}"
+    return '{"label_name": "' + label_name + '"}'
 
 
 @app.route('/mobile/similar', methods=['GET'])
