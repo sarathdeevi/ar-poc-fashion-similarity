@@ -1,11 +1,12 @@
 import base64
 import json
 import shutil
+import uuid
 
 from flask import Flask, render_template, request
 from werkzeug import secure_filename
 
-from service import get_label
+from service import get_label, get_similar
 
 app = Flask(__name__)
 
@@ -67,14 +68,30 @@ _valid_json = '''
 def mobile_upload():
     file_location = "static/uploadedImages/"
     request_data = base64.b64decode(request.values['image'])
-    file_name = request.values['file_name']
+    file_name = str(uuid.uuid4()) + ".jpg"
 
     with open(file_location + file_name, "w") as f:
         f.write(request_data)
 
     f.close()
 
-    similar_images, label_name = get_label(file_name)
+    return "{'file_name': '" + file_name + "'}"
+
+
+@app.route('/mobile/label', methods=['GET'])
+def mobile_label():
+    file_name = request.args['file_name']
+    label_name = get_label(file_name)
+
+    return "{'label_name': '" + label_name + "'}"
+
+
+@app.route('/mobile/similar', methods=['GET'])
+def mobile_similar():
+    file_name = request.args['file_name']
+    label_name = get_label(file_name)
+
+    similar_images = get_similar(file_name, label_name)
 
     valid_json = json.loads(_valid_json)
 
@@ -83,6 +100,8 @@ def mobile_upload():
         urls.append('static/inputFiles/' + label_name + "/" + url)
 
     valid_json['url'] = urls
+    valid_json['name'] = label_name
+    valid_json['type'] = label_name.upper()
 
     response_json = json.dumps(valid_json)
 
